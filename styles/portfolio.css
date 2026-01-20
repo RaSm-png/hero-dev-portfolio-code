@@ -21,6 +21,25 @@
     font-optical-sizing: auto;
 }
 
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
 
 /* main style */
 
@@ -100,4 +119,36 @@ nav .menu a {
 #banner .banner-image img {
     max-width: 584px;
     vertical-align: middle;
+}
+
+#about {
+    padding-top: 130px;
+
+
+}
+
+#about .about-container {
+    text-align: center;
+    background-color: #FFF8F3;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 131px 157px;
+}
+
+
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .about-container .about-info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#about .about-container .about-info h4 {
+    font-size: 20px;
+
 }
